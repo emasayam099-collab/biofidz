@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Logic | Master Your Grades with AI Logic</title>
+    
+    <meta name="description" content="Neural Logic is the only AI tutor that teaches you how to solve problems, not just giving answers. Smart Learning 2026.">
+    <meta name="keywords" content="AI Tutor, Homework Helper, Smart Learning 2026, Neural Logic">
+    <meta property="og:title" content="Neural Logic - AI Homework Assistant">
+    <meta property="og:image" content="https://yourdomain.com/og-image.jpg">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Neural Logic",
+      "applicationCategory": "EducationApplication",
+      "operatingSystem": "Web",
+      "offers": { "@type": "Offer", "price": "0" }
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-[#030712] text-gray-100 antialiased selection:bg-[#8B5CF6]/30">
+
+    <div id="cursor-dot"></div>
+    <div id="cursor-outline"></div>
+
+    <nav class="fixed top-0 w-full z-[100] glass-nav px-6 py-4 flex justify-between items-center">
+        <div class="text-2xl font-black tracking-tighter flex items-center gap-2">
+            <span class="text-[#8B5CF6]">NEURAL</span><span class="text-white">LOGIC</span>
+        </div>
+        <div class="hidden md:flex gap-10 text-sm font-semibold tracking-wide uppercase text-gray-400">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#about" class="nav-link">About Us</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="btn-glow bg-[#8B5CF6] text-white px-7 py-2.5 rounded-full font-bold text-sm transition-all hover:scale-105 active:scale-95">
+            Get Started
+        </button>
+    </nav>
+
+    <main>
+        <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+            <div id="hero-canvas" class="absolute inset-0 z-0"></div>
+            
+            <div class="relative z-10 text-center px-4 max-w-5xl">
+                <span class="inline-block px-4 py-1.5 mb-6 rounded-full border border-[#8B5CF6]/30 bg-[#8B5CF6]/10 text-[#8B5CF6] text-xs font-bold tracking-widest uppercase reveal">
+                    Revolutionizing Education 2026
+                </span>
+                <h1 class="text-6xl md:text-8xl font-black mb-8 tracking-tight reveal">
+                    Master Your Grades with <br/>
+                    <span class="gradient-text">Neural Logic.</span>
+                </h1>
+                <p class="text-gray-400 text-lg md:text-2xl max-w-2xl mx-auto mb-10 leading-relaxed reveal">
+                    The only AI tutor that teaches you <strong>how to solve</strong>, not just what the answer is.
+                </p>
+                <div class="flex flex-wrap justify-center gap-5 reveal">
+                    <button class="btn-glow bg-[#8B5CF6] px-10 py-5 rounded-2xl font-bold text-lg">Start Free Trial</button>
+                    <button class="glass px-10 py-5 rounded-2xl font-bold text-lg border border-white/10 hover:bg-white/5 transition-all">Explore Tech</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="py-32 px-6 max-w-7xl mx-auto">
+            <div class="mb-20 text-center">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 reveal">The AI Core</h2>
+                <p class="text-gray-500 reveal">Propelling human intelligence with neural architecture.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+                <div class="md:col-span-8 glass card-glow p-12 rounded-[24px] reveal">
+                    <div class="w-14 h-14 bg-cyan-500/10 rounded-2xl flex items-center justify-center mb-8">
+                        <i data-lucide="scan-eye" class="text-[#06B6D4]"></i>
+                    </div>
+                    <h3 class="text-4xl font-bold mb-4">Vision Solver</h3>
+                    <p class="text-gray-400 text-xl leading-relaxed">Scan any problem for instant logic-based solutions. Our vision engine detects handwriting and complex diagrams with 99.9% accuracy.</p>
+                </div>
+                <div class="md:col-span-4 glass card-glow p-12 rounded-[24px] reveal">
+                    <div class="w-14 h-14 bg-violet-500/10 rounded-2xl flex items-center justify-center mb-8">
+                        <i data-lucide="brain-circuit" class="text-[#8B5CF6]"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Socratic Tutor</h3>
+                    <p class="text-gray-400">Step-by-step guidance that adapts to your learning speed.</p>
+                </div>
+                <div class="md:col-span-4 glass card-glow p-12 rounded-[24px] reveal">
+                    <div class="w-14 h-14 bg-white/5 rounded-2xl flex items-center justify-center mb-8">
+                        <i data-lucide="bar-chart-3" class="text-white"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Study Insights</h3>
+                    <p class="text-gray-400">Identify learning gaps with deep-learning analytics.</p>
+                </div>
+                <div class="md:col-span-8 glass card-glow p-12 rounded-[24px] flex flex-col justify-center reveal">
+                    <h3 class="text-3xl font-bold mb-4">Real-time Validation</h3>
+                    <p class="text-gray-400 text-lg">Never get stuck again. Our AI is available 24/7 to clear your doubts anywhere, anytime.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-20 border-t border-white/5 bg-black/50">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div class="col-span-2">
+                <div class="text-2xl font-black mb-6">NEURALLOGIC</div>
+                <p class="text-gray-500 max-w-sm leading-relaxed">Revolutionizing education through the power of neural intelligence. Join 5M+ students worldwide.</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6">Product</h4>
+                <ul class="space-y-4 text-gray-500 text-sm">
+                    <li><a href="#" class="hover:text-white transition">Features</a></li>
+                    <li><a href="#" class="hover:text-white transition">Security</a></li>
+                    <li><a href="#" class="hover:text-white transition">Pricing</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6">Newsletter</h4>
+                <div class="flex gap-2">
+                    <input type="email" placeholder="Email" class="bg-white/5 border border-white/10 rounded-lg px-4 py-2 w-full outline-none focus:border-[#8B5CF6]">
+                    <button class="bg-white text-black px-4 py-2 rounded-lg font-bold text-xs uppercase">Join</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
